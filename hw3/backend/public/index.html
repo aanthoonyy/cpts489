@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Petition</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header2">
+      <div class="banner">
+        <span>Home</span>
+        <span>About</span>
+        <span>Categories</span>
+        <span>Contact</span>
+      </div>
+    </header>
+
+    <div class="main">
+      <h1 class="articleText">Move CPTS 489 to Afternoon in Winter!</h1>
+      <div class="container">
+        <p>The image you see on the right is a......</p>
+        <img class="pictu" src="s-l400-2.jpg" alt="placeholder" />
+      </div>
+
+      <h2>Sign the Petition</h2>
+      <form id="petitionForm">
+        <div>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="name"
+            required
+          />
+        </div>
+        <div>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="your email"
+            required
+          />
+        </div>
+        <div>
+          <input type="text" id="city" name="city" placeholder="city" />
+        </div>
+        <div>
+          <input type="text" id="state" name="state" placeholder="e.g., WA" />
+        </div>
+        <div>
+          <button type="submit">Sign</button>
+        </div>
+      </form>
+
+      <h2>Signatures</h2>
+      <ul id="signaturesList"></ul>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
